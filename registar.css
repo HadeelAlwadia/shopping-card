@@ -1,0 +1,6 @@
+.regisar-form{width: 50%; height: 400px; background-color: #ffc2b4; margin:5% 20% ; padding: 3% 10%; border: 1px solid black;}
+.regisar-form form{  flex-flow: column; display: flex;}
+.regisar-form form input[type="text"],.regisar-form form input[type="password"]{outline: none; margin-top: 10px; border: none; padding: 4px; border-bottom: 1px solid black;}
+.regisar-form form input[type="submit"]{width: 30%; margin: 5% 70%; padding: 4px 6px; background-color: #ffc2b4; transition: backgound 1s,transform 0.3s;}
+.regisar-form form input[type="submit"]:hover{background-color: white; transform: scale(1.1); color: #ffc2b4;}
+.regisar-form h2{color: olivedrab;}

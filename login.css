@@ -1,0 +1,9 @@
+.login-form{width: 50%; height: 500px;  margin:4% 25% ;  padding: 3% 10%;background-color: white; background-repeat: no-repeat; background-size: cover; border: 1px solid black;} 
+.login-form form{  flex-flow: column; display: flex;}
+.login-form form input{outline: none;}
+.login-form form input:hover{outline: none; transform: scale(1);}
+
+.login-form form input[type="text"],.login-form form input[type="email"],.login-form form input[type="password"]{outline: none; margin-top: 10px; border: none; padding: 4px; border-bottom: 1px solid black;}
+.login-form form input[type="submit"]{width: 30%; margin: 5% 70%; padding: 4px 6px; background-color: #ffc2b4; transition: color 1s,transform 0.1s;}
+.login-form form input[type="submit"]:hover{background-color:white; transform: scale(1.1); color: #ffc2b4;}
+.login-form h2{color: rgb(170, 170, 1);}
